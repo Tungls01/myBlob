@@ -13,7 +13,7 @@
     "@aptos-labs/wallet-adapter-react": "^7.2.8",
     "@aws-sdk/client-s3": "^3.1020.0",
     "@shelby-protocol/react": "^1.0.3",
-    "@shelby-protocol/sdk": "^0.2.3",
+    "@shelby-protocol/sdk": "^0.2.4",
     "@tanstack/react-query": "^5.95.2",
     "aptos": "^1.22.1",
     "framer-motion": "^12.38.0",
