@@ -152,7 +152,8 @@ interface BlobListProps {
 }
 
 export default function BlobList({ accountAddress }: BlobListProps) {
-  console.log("KEY:", process.env.NEXT_PUBLIC_SHELBY_API_KEY);
+  console.log("BLOB LIST RENDER");
+console.log("KEY:", process.env.NEXT_PUBLIC_SHELBY_API_KEY);
   const { account } = useWallet();
   const address =
     accountAddress ||
