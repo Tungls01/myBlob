@@ -152,7 +152,6 @@ interface BlobListProps {
 }
 
 export default function BlobList({ accountAddress }: BlobListProps) {
-
   const { account } = useWallet();
   const address =
     accountAddress ||
@@ -199,7 +198,7 @@ export default function BlobList({ accountAddress }: BlobListProps) {
     setCurrentBlob({ url, name: blobName });
   };
 
-  // ===== Tự động refetch khi mở folder =====
+  
   useEffect(() => {
     if (openFolder) {
       refetch?.();
